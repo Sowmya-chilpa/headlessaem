@@ -1,0 +1,55 @@
+.team-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 36px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.25), 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.team-header h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1a1040;
+  letter-spacing: -0.02em;
+}
+
+.team-code {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.team-description {
+  color: #2b2a2e;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.members-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #2b2a2e;
+  margin-bottom: 20px;
+}
+
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+}

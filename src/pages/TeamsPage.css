@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.teams-page {
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  min-height: 100vh;
+  padding: 52px 28px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teams-page-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.teams-page h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+.teams-page h1 span {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-size: 38px;
+  display: block;
+  margin-top: 4px;
+}
+
+.teams-list {
+  width: 100%;
+  max-width: 1060px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
