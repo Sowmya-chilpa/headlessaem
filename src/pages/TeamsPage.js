@@ -14,7 +14,7 @@ const TeamsPage = () => {
     <div className="teams-page">
       <div className="teams-page-header">
         <h1>
-          AEM Teams
+           Teams
         </h1>
       </div>
 

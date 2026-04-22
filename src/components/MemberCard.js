@@ -12,7 +12,7 @@ const MemberCard = ({ member }) => {
           <div className="avatar-inner">
             {member.profilePicture?._path ? (
               <img
-                src={`http://localhost:4502${member.profilePicture._path}`}
+                src="/images/A4.jpg"
                 alt={member.name}
                 className="member-img"
               />
